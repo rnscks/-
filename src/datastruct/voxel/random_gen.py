@@ -4,7 +4,6 @@ from OCC.Core.Bnd import Bnd_Box
 from typing import List, Tuple, Set, Optional
 import random
 
-from src.cable_routing.routing_component.panel import Panel
 from src.datastruct.voxel.voxel_grids import VoxelGrids3D, VoxelNode
 from src.algorithm.pathfinding.pathfinding import AStar
     
