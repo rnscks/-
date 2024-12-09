@@ -54,8 +54,3 @@ class PathFindingRouter(Router):
             return cable
         else:
             return ValueError("Path not found")
-
-class RLRouter(Router):
-    def __init__(self, grids: VoxelGrids3D, rl_model: str) -> None:
-        super().__init__(grids)
-        pass
