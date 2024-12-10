@@ -3,7 +3,7 @@ from OCC.Core.gp import gp_Pnt
 from typing import List, Tuple, Set, Optional
 import pandas as pd
 
-from src.datastruct.voxel.voxel_grids import VoxelNode, VoxelGrids3D
+from src.datastruct.voxel_grids import VoxelNode, VoxelGrids3D
 
 
 class Terminal:

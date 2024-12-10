@@ -4,8 +4,8 @@ from OCC.Core.Bnd import Bnd_Box
 from typing import List, Tuple, Set, Optional
 import random
 
-from src.datastruct.voxel.voxel_grids import VoxelGrids3D, VoxelNode
-from src.algorithm.pathfinding.pathfinding import AStar
+from src.datastruct.voxel_grids import VoxelGrids3D, VoxelNode
+from src.algorithm.pathfinding import AStar
     
     
 class BndObstacleGen:

@@ -3,7 +3,7 @@ from itertools import product
 from abc import ABC, abstractmethod 
 import heapq
 
-from src.datastruct.voxel.voxel_grids import VoxelNode, VoxelGrids3D
+from src.datastruct.voxel_grids import VoxelNode, VoxelGrids3D
 
 class PathFollower:
     def __init__(self, grids: VoxelGrids3D) -> None:
